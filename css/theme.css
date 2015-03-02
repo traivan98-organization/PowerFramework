@@ -1,0 +1,97 @@
+/* ================ This file is containing all of your theme style and modification ================*/
+
+/* Table of content 
+=====================================
+1. Document Setup(body, typography, etc) =============================== # line 11
+2. Misc and Re-usable Elements ========================================= # line 77
+
+=====================================
+*/
+
+/* =========================================================== 
+    1. Document Setup (body, common classes, structure etc)
+============================================================ */
+
+/* #basic
+================================================== */
+html,body {
+	height: 100%;
+}
+body {
+	color: #323232;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+/* Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 25px;
+}
+h1 {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 60px;
+}
+h3 {
+	font-size: 40px;
+	line-height: 50px;
+}
+h4 {
+	font-size: 30px;
+	line-height: 40px;
+}
+h5 {
+	font-size: 22px;
+	line-height: 30px;
+}
+h6 {
+	font-size: 18px;
+	line-height: 25px;
+}
+p {
+	font-size: 16px;
+	line-height: 25px;
+}
+a {
+	color: #d3145a;
+	text-decoration: none;
+	-webkit-transform: translateZ(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+/* =========================================================== 
+    2. Misc and Re-usable Elements
+============================================================ */
+
+section {
+	padding: 80px 0;
+}
+
+/* =========================================================== 
+    2.	home background image
+============================================================ */
+#themename-home {
+	background: url(../images/home-bg.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	color: #fff;
+}
+.themename-button {
+	margin-top: 40px;
+	padding: 20px 60px;
+}
+
